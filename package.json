@@ -1,0 +1,27 @@
+{
+  "name": "react-native-chart-kit-example",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "jest-expo": "^28.0.0",
+    "react-native-scripts": "1.14.0",
+    "react-test-renderer": "^16.4.1"
+  },
+  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+  "scripts": {
+    "start": "react-native-scripts start",
+    "eject": "react-native-scripts eject",
+    "android": "react-native-scripts android",
+    "ios": "react-native-scripts ios",
+    "test": "jest"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "expo": "^28.0.0",
+    "react": "^16.4.1",
+    "react-native": "~0.55.2",
+    "react-native-chart-kit": "^1.0.0"
+  }
+}
